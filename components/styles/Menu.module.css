@@ -1,0 +1,25 @@
+.menu {
+  border: 1px dashed var(--purple);
+  margin: 0;
+  width: 15%;
+  min-height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menuBtnWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.menuBtn {
+  margin: 1rem;
+  background-color: var(--purple);
+  color: var(--white);
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+  border: 1px solid var(--purple);
+}
+.menuBtn:hover {
+  transform: scale(1.2);
+}

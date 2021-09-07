@@ -1,0 +1,118 @@
+
+.intro {
+  padding: 1rem;
+
+}
+
+/*  width: 65%; */
+
+.introInteractive {
+
+  padding: 1rem;
+}
+
+/*  
+  padding-bottom: 10rem;
+border-bottom: 1px solid var(--lime);
+  margin-bottom: 5rem;
+
+*/
+
+
+.scrollDownWrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  border: 1px dashed var(--lightGrey);
+  padding: 2px 4px;
+
+}
+
+.wide {
+  max-width: var(--extraLg);
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-content: center;    
+
+}
+/* .intro, .wide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+*/
+
+
+
+.upheading {
+  color: var(--grey);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.3rem;
+}
+
+.subheading {
+  width: 70%;
+}
+
+.scrollDown {
+  display: flex;
+  align-items: flex-end;
+}
+
+/*   border: 1px outset var(--lightPurple);
+  border-radius: 50%;
+*/
+
+
+.gameBtn, .resumeBtn {
+  background-color: var(--darkGrey);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+}
+
+.resumeBtn:hover {
+  background-color: var(--deepGreen);
+  border: 1px dashed var(--darkGrey);
+}
+.gameBtn:hover {
+  background-color: var(--pink) ;
+  border: 1px dashed var(--darkGrey);
+}
+.resumeBtn {
+  border: 1px dashed var(--deepGreen);
+  margin-right: 1rem;
+}
+.gameBtn {
+  border: 1px dashed var(--pink);
+}
+
+@media (max-width: 1200px) {
+  .wide {
+    max-width: var(--lg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .wide {
+    max-width: var(--netbook);
+  }
+}
+
+@media (max-width: 768px) {
+  .wide {
+    max-width: var(--tablet);
+    padding: 0;
+    margin: 0 auto;
+  }
+  .intro {
+    width: 100%;
+    padding-bottom: 0;
+    padding-top: 2rem;
+  }
+}
+

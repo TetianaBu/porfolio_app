@@ -1,16 +1,124 @@
-html,
-body {
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/montserrat-v15-latin-regular.woff2') format("woff2");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+body, button {
+  font-family: 'Montserrat', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--darkGrey);
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0;
+}
+
+li, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: normal;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1, h2, a {
+  letter-spacing: 0.5px;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 a {
-  color: inherit;
+  color: var(--darkGrey);
   text-decoration: none;
+  font-weight: 100;
+}
+/*
+button:hover {
+  background-color: rgba(73, 73, 73, 0.8);
+}
+*/
+a:hover {
+  text-decoration-thickness: 0.3px;
 }
 
-* {
-  box-sizing: border-box;
+img {
+  max-width: 100%;
+  display: block;
+}
+
+header {
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  border: 3px solid var(--purple);
+  position: relative;
+  margin: 0 auto;
+}
+
+section {
+  height: 100vh;
+  border-left: 3px solid var(--purple);
+  border-right: 3px solid var(--purple);
+  border-bottom: 3px solid var(--purple);
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+address {
+  text-align: center;
+  font-size: smaller;
+  padding-top: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  section {
+    max-width: var(--lg);
+  }
+}
+
+@media (max-width: 1000px) {
+  section {
+    max-width: var(--netbook);
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    max-width: var(--tablet);
+    height: 100vh;
+  }
+  header {
+    height: 100vh;
+  }
 }

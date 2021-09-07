@@ -1,0 +1,49 @@
+.wrapper {
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 5px;
+  padding: 1rem;
+}
+
+/*grid-template-columns: repeat(5, 25%);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+grid-template-columns: repeat(5, 25%); */
+
+.item {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem 1rem 0.5rem;
+  border: 1px dashed var(--purple);
+  max-height: 50px;
+}
+
+.react {
+  border: 4px dashed var(--lime);
+  grid-column: span 3;
+}
+
+.git {
+  border: 4px dashed var(--pink);
+  grid-column: span 2;
+}
+
+.javaScript {
+  border: 4px dashed var(--lime);
+  grid-column: span 3;
+}
+
+.css {
+  grid-column: span 2;
+  border: 4px dashed var(--lime);
+}
+
+.nextjs {
+  grid-column: span 2;
+  border: 4px dashed var(--lime);
+}

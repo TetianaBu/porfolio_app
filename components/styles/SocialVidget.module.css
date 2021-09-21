@@ -20,6 +20,5 @@
 }
 
 .socialImgWrapper:hover {
-  border: 1px dashed var(--deepGreen);
-  padding: 0 0.5rem 0 0.5rem;
+  margin-bottom: 0.2rem;
 }

@@ -11,6 +11,9 @@
 .Navigation a {
   padding: 0.3rem 1rem;
   margin: 0.5rem 0;
+  border-top: 2px dashed var(--white);
+  border-left: 2px dashed var(--white);
+  border-right: 2px dashed var(--white);
   border-bottom: 2px dashed var(--deepGreen);
 }
 

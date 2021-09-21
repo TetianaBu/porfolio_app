@@ -1,0 +1,33 @@
+.errorWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img:first-of-type:hover {
+  transform: scale(0.8);
+}
+.img:nth-of-type(2):hover {
+  transform: scale(3);
+}
+.img:nth-of-type(3):hover {
+  transform: scale(1.6);
+}
+.img {
+  animation: rotateAsteroid 5s infinite;
+  padding-right: 3rem;
+}
+.message {
+  margin: 3rem;
+  padding: 1rem 3rem;
+  border: 4px solid var(--purple);
+}
+
+@keyframes rotateAsteroid {
+  50% {transform: rotate(60deg);}
+}
+
+.asteroidsWrapper {
+  display: flex;
+  flex-direction: row;
+}

@@ -73,25 +73,6 @@ const allProjectsData = [
   }
 ];
 
-const allProjectsDataNON = [
-  {
-    id: 1,
-    title: `FOX APP`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
-    img: imgFox,
-    stack1: `Js`,
-    stack2: `React`,
-    stack3: `CSS`,
-    linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://github.com/TetianaBu/fox-app-react',
-    imgGit: imgGit,
-    imgWeb: imgLink
-  }
-];
-
 export default function Project({}) {
   return (
     <div className={styles.mainWrapper}>

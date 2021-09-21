@@ -1,7 +1,29 @@
 #skills {
   display: grid;
   grid-template-columns: 50% 50%;
+  place-items: center;
+  padding-left: 2rem;
 }
+#skills:hover {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+#skills:hover a {
+  color: var(--white);
+}
+
 .skillsText {
   padding: 1rem;
+}
+
+.certificatesList li {
+  list-style: "\2212";
+  margin-left: 2rem;
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
+
+.certificatesList a {
+  font-weight: normal;
 }

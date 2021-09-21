@@ -18,6 +18,7 @@ html, body {
 body, button {
   font-family: 'Montserrat', sans-serif;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -31,10 +32,10 @@ body {
 
 main {
   margin: 0;
+  border-top: 3px solid var(--purple);
 }
 
 li, ul {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -45,13 +46,14 @@ h1 {
   line-height: normal;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin: 0;
 }
 
 h1, h2, a {
   letter-spacing: 0.5px;
 }
+
 h2 {
   font-size: 2rem;
   font-weight: normal;
@@ -62,11 +64,13 @@ a {
   text-decoration: none;
   font-weight: 100;
 }
+
 /*
 button:hover {
   background-color: rgba(73, 73, 73, 0.8);
 }
 */
+
 a:hover {
   text-decoration-thickness: 0.3px;
 }
@@ -80,20 +84,21 @@ header {
   display: flex;
   height: 100vh;
   margin: 0 auto;
-  border: 3px solid var(--purple);
   position: relative;
   margin: 0 auto;
 }
 
-section {
-  height: 100vh;
+header, section {
   border-left: 3px solid var(--purple);
   border-right: 3px solid var(--purple);
   border-bottom: 3px solid var(--purple);
+}
+
+section {
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
 }
-
 
 address {
   text-align: center;

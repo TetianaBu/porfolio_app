@@ -1,23 +1,10 @@
-
 .intro {
   padding: 1rem;
-
 }
-
-/*  width: 65%; */
 
 .introInteractive {
-
   padding: 1rem;
 }
-
-/*  
-  padding-bottom: 10rem;
-border-bottom: 1px solid var(--lime);
-  margin-bottom: 5rem;
-
-*/
-
 
 .scrollDownWrapper {
   display: flex;
@@ -27,25 +14,16 @@ border-bottom: 1px solid var(--lime);
   left: 90%;
   border: 1px dashed var(--lightGrey);
   padding: 2px 4px;
-
 }
 
 .wide {
   max-width: var(--extraLg);
   display: grid;
   grid-template-columns: 60% 40%;
-  align-content: center;    
+  align-content: center;
+  margin-left: 2rem;
 
 }
-/* .intro, .wide {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-*/
-
-
 
 .upheading {
   color: var(--grey);
@@ -55,6 +33,7 @@ border-bottom: 1px solid var(--lime);
 
 .subheading {
   width: 70%;
+  margin-bottom: 2rem;
 }
 
 .scrollDown {
@@ -62,34 +41,27 @@ border-bottom: 1px solid var(--lime);
   align-items: flex-end;
 }
 
-/*   border: 1px outset var(--lightPurple);
-  border-radius: 50%;
-*/
-
-
 .gameBtn, .resumeBtn {
   background-color: var(--darkGrey);
   color: var(--white);
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0.8rem 1.5rem;
 }
 
-.resumeBtn:hover {
+.resumeBtn:hover, .gameBtn:hover {
   background-color: var(--deepGreen);
-  border: 1px dashed var(--darkGrey);
-}
-.gameBtn:hover {
-  background-color: var(--pink) ;
-  border: 1px dashed var(--darkGrey);
-}
-.resumeBtn {
-  border: 1px dashed var(--deepGreen);
-  margin-right: 1rem;
+  border: 1px solid var(--white);
 }
 .gameBtn {
-  border: 1px dashed var(--pink);
+  border: 1px solid var(--brightPurple);
 }
+.resumeBtn {
+  border: 1px solid var(--brightPurple);
+  margin-right: 1.5rem;
+}
+
 
 @media (max-width: 1200px) {
   .wide {
@@ -116,3 +88,18 @@ border-bottom: 1px solid var(--lime);
   }
 }
 
+.asteroid {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 200px;}
+}

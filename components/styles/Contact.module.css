@@ -5,7 +5,7 @@
 .pseudoButton:hover {
   background:var(--deepGreen) ;
   color: white;
-  border: 1px dashed var(--darkGrey);
+  border: 1px solid var(--darkGrey);
   text-decoration: none;
 }
 .contact {

@@ -9,15 +9,15 @@ import imgLink from '../public/images/social/link.png';
 const allProjectsData = [
   {
     id: 1,
-    title: `Fox app`,
+    title: `Portfolio App`,
     description: `If you have grid items that you don’t explicitly place on the grid,
     the auto-placement algorithm kicks in to automatically place the
     items. This property controls how the auto-placement algorithm
     works.`,
     img: imgFox,
-    stack1: `Js`,
-    stack2: `React`,
-    stack3: `CSS`,
+    stack1: `react`,
+    stack2: `next.js`,
+    stack3: `css`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
     linkWeb: 'https://github.com/TetianaBu/fox-app-react',
     imgGit: imgGit,
@@ -25,15 +25,16 @@ const allProjectsData = [
   },
   {
     id: 2,
-    title: `Portfolio App`,
+    title: `Fox app`,
     description: `If you have grid items that you don’t explicitly place on the grid,
     the auto-placement algorithm kicks in to automatically place the
     items. This property controls how the auto-placement algorithm
     works.`,
     img: imgFox,
-    stack1: `Next.js`,
-    stack2: `React`,
-    stack3: `CSS`,
+    stack1: `react`,
+    stack2: `css`,
+    stack3: `react-vis`,
+    stack4: `mapboxgl`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
     linkWeb: 'https://github.com/TetianaBu/fox-app-react',
     imgGit: imgGit,
@@ -41,15 +42,17 @@ const allProjectsData = [
   },
   {
     id: 3,
-    title: ` Shop`,
+    title: `Shop`,
     description: `If you have grid items that you don’t explicitly place on the grid,
     the auto-placement algorithm kicks in to automatically place the
     items. This property controls how the auto-placement algorithm
     works.`,
     img: imgFox,
-    stack1: `Next.js`,
-    stack2: `React`,
-    stack3: `GraphQL`,
+    stack1: `react`,
+    stack2: `next.js`,
+    stack3: `node.js`,
+    stack4:  `graphql`,
+    stack5:`mongodb`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
     linkWeb: 'https://github.com/TetianaBu/fox-app-react',
     imgGit: imgGit,
@@ -63,9 +66,9 @@ const allProjectsData = [
     items. This property controls how the auto-placement algorithm
     works.`,
     img: imgFox,
-    stack1: `Next.js`,
-    stack2: `React`,
-    stack3: `GraphQL`,
+    stack1: `js`,
+    stack2: `css`,
+    stack3: ``,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
     linkWeb: 'https://github.com/TetianaBu/fox-app-react',
     imgGit: imgGit,
@@ -85,6 +88,8 @@ export default function Project({}) {
           stack1,
           stack2,
           stack3,
+          stack4,
+          stack5,
           linkGit,
           linkWeb,
           imgGit,
@@ -98,6 +103,8 @@ export default function Project({}) {
                   <li>{stack1}</li>
                   <li>{stack2}</li>
                   <li>{stack3}</li>
+                  <li>{stack4}</li>
+                  <li>{stack5}</li>
                 </ul>
                 <p className={styles.decription}>{description}</p>
               </div>

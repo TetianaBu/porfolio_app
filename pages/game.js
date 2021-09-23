@@ -1,7 +1,11 @@
+import utilStyles from '../styles/utils.module.css';
+import BackToHome from '../components/BackToHome';
+
 export default function Game() {
   return (
-    <section>
-      <h2>SOOON!</h2>
+    <section className={utilStyles.centeredGrid}>
+      <h1>SOOON!</h1>
+      <BackToHome />
     </section>
   );
 }

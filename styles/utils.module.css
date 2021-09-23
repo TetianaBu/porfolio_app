@@ -1,0 +1,19 @@
+.centeredGrid {
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+
+.regularBtn {
+  padding: 0.3rem 1rem;
+  background-color: var(--purple);
+  color: var(--white);
+  margin: 1rem;
+  text-transform: uppercase;
+  border: 1px solid var(--darkPurple);
+}
+
+.regularBtn:hover {
+  opacity: 0.6;
+  transform: scale(1.2);
+}

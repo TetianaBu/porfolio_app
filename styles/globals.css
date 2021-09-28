@@ -27,6 +27,7 @@ body {
   background-color: var(--white);
   color: var(--darkGrey);
   max-width: 1600px;
+  min-width: var(--extraSm);
   margin: 0 auto;
 }
 
@@ -106,19 +107,19 @@ address {
   padding-top: 0.5rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: var(--lg)) {
   section {
     max-width: var(--lg);
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: var(--netbook)) {
   section {
     max-width: var(--netbook);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: var(--tablet)) {
   section {
     max-width: var(--tablet);
     height: 100vh;
@@ -127,3 +128,10 @@ address {
     height: 100vh;
   }
 }
+
+/* @media (min-width: var(--extraSm)) {
+  body { 
+
+ }
+}
+*/

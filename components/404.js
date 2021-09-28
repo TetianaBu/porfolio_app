@@ -44,7 +44,7 @@ export default function Error() {
             />{' '}
           </div>
         </div>
-        <h1 className={styles.message}>404 - Page Not Found</h1>
+        <h1 className={styles.message}>404. Page not found</h1>
       </section>
     </div>
   );

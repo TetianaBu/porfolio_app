@@ -3,7 +3,7 @@ import SkillsGrid from './SkillsGrid';
 
 export default function Skills() {
   return (
-    <section id={styles.skills}>
+    <section className={styles.wrapper}>
       <div className={styles.skillsText}>
         <article>
         <h3>Skills</h3>

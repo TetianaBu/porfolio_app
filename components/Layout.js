@@ -18,7 +18,7 @@ export default function Layout({children}) {
         <meta name="twitter:card" content="" />
       </Head>
       <Menu />
-      <div className={styles.menuFake}></div>
+      <div className={styles.menuClosed}></div>
       <main>{children}</main>
     </div>
   );

@@ -1,3 +1,20 @@
 .wrapper {
   display: flex;
 }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    height: 110vh;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    height: 300vh;
+  }
+}

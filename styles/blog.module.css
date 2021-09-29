@@ -1,4 +1,5 @@
 /* blog start */
+
 .postGrid {
   margin: 0;
   width: 100%;
@@ -8,6 +9,7 @@
   justify-content: flex-end;
   padding-bottom: 3rem;
 }
+
 .postGrid:first-of-type {
   grid-area: main;
   height: 60vh;
@@ -46,4 +48,17 @@ h3.postTitle {
   background-color: var(--white);
   width: 70%;
   height: 60%;
+}
+
+@media (max-width: 480px) {
+  .postsGrid {
+    grid-template-areas: "main main main main" "art1 art1 art1 art1" "art2 art2 art2 art2";
+    place-items: center;
+  }
+  .postGrid {
+    margin-bottom: 1rem;
+  }
+  .postGrid:nth-of-type(2), .postGrid:nth-of-type(3) {
+    height: 40vh;
+  }
 }

@@ -2,3 +2,12 @@
   display: grid;
   grid-template-columns: 20% 80%;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-columns: 100%;
+  }
+  .menuClosed {
+    display: none;
+  }
+}

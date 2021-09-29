@@ -2,7 +2,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
   grid-auto-flow: dense;
   grid-gap: 5px;
   padding: 1rem;
@@ -58,4 +58,17 @@
   background-color: var(--white);
   color: var(--darkGrey);
   border: 4px solid white;
+}
+
+
+@media (max-width: 768px) {
+  .grid {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fil, minmax(50px, 1fr));
+  }
 }

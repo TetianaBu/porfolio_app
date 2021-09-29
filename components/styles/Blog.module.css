@@ -1,1 +1,6 @@
 
+@media (max-width: 480px) {
+  .postsGrid {
+    height: 150vh;
+  }
+}

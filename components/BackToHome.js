@@ -1,4 +1,4 @@
-import Link from "next/dist/client/link"
+import Link from 'next/dist/client/link';
 import utilStyles from '../styles/utils.module.css';
 
 export default function BackToHome(){

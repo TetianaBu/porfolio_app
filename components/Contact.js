@@ -1,6 +1,5 @@
 import styles from './styles/Contact.module.css';
 import Image from 'next/dist/client/image';
-import SocialVidget from './SocialVidget';
 import placeImg from '../public/images/social/placeholder.png';
 import avatar from '../public/images/profile.jpg';
 

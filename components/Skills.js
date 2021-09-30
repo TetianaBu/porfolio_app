@@ -27,5 +27,3 @@ export default function Skills() {
     </section>
   );
 }
-
-//<div className={styles.skillsVisual}></div>

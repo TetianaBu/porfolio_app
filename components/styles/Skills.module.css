@@ -54,3 +54,9 @@
     height: 150vh;
   }
 }
+
+@media (max-width: 376px) {
+  .wrapper {
+    height: 170vh;
+  }
+}

@@ -34,3 +34,9 @@
   max-width: 70%;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .avatarWrapper {
+    padding: 1rem 0;
+  }
+}

@@ -22,7 +22,6 @@
   grid-template-columns: 60% 40%;
   align-content: center;
   margin-left: 2rem;
-
 }
 
 .upheading {
@@ -54,13 +53,16 @@
   background-color: var(--deepGreen);
   border: 1px solid var(--white);
 }
+
 .gameBtn {
   border: 1px solid var(--brightPurple);
 }
+
 .resumeBtn {
   border: 1px solid var(--brightPurple);
   margin-right: 1.5rem;
 }
+
 .asteroid {
   display: flex;
   align-content: flex-start;
@@ -73,8 +75,12 @@
 }
 
 @keyframes example {
-  from {top: 0px;}
-  to {top: 200px;}
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -113,14 +119,15 @@
     grid-template-columns: 100%;
   }
 }
+
 @media (max-width: 480px) {
-  .gameBtn, .resumeBtn { 
+  .gameBtn, .resumeBtn {
     font-size: 0.75rem;
   }
 }
 
 @media (max-width: 376px) {
-  .gameBtn { 
+  .gameBtn {
     display: none;
   }
 }

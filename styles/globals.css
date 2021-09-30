@@ -19,6 +19,12 @@ body, button {
   font-family: 'Montserrat', sans-serif;
 }
 
+button {
+  background-color: var(--purple);
+  color:var(--white);
+  border: 1px solid var(--white);
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

@@ -1,10 +1,11 @@
 import styles from './styles/Layout.module.css';
 import Head from 'next/head';
-import Menu from './Menu';
+import MenuBtn from './MenuBtn';
+import MenuSide from './MenuSide';
 
 export const siteTitle = 'Tetiana Buchok | Web Developer';
 
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,9 +18,15 @@ export default function Layout({children}) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="" />
       </Head>
-      <Menu />
-      <div className={styles.menuClosed}></div>
+
+      <div className={styles.menuSide}>
+        <MenuSide />
+      </div>
+
       <main>{children}</main>
+      <div className={styles.menu}>
+        <MenuBtn />
+      </div>
     </div>
   );
 }

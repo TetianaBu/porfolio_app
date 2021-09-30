@@ -3,11 +3,22 @@
   grid-template-columns: 20% 80%;
 }
 
+.menu {
+  display: none;
+}
+
 @media (max-width: 1000px) {
   .container {
     grid-template-columns: 100%;
   }
-  .menuClosed {
+  .menuSide {
     display: none;
+  }
+  .menu {
+    display: flex;
+    margin: auto;
+    position: fixed;
+    top: 1%;
+    left: 1%;
   }
 }

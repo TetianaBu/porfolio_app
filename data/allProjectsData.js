@@ -13,7 +13,7 @@ export const allProjectsData = [
     stack2: `next.js`,
     stack3: `css`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://github.com/TetianaBu/fox-app-react',
+    linkWeb: 'https://about-foxes.herokuapp.com/',
     imgGit: imgGit,
     imgWeb: imgLink
   },

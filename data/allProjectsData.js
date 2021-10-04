@@ -5,10 +5,7 @@ export const allProjectsData = [
   {
     id: 1,
     title: `Portfolio App`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
+    description: `My personal website, that I engineered using Next.js, React, CSS and deployed it on Vercel. In future I want to add more dynamics to this page using Three.js.`,
     stack1: `react`,
     stack2: `next.js`,
     stack3: `css`,
@@ -19,11 +16,22 @@ export const allProjectsData = [
   },
   {
     id: 2,
+    title: `Shop`,
+    description: `Online-shop developed using React, Next.js, Node.js, GraphQL, Apollo 3, Keystone Headless CMS, MongoDB and Styled Components. Currently I’m working on this project.`,
+    stack1: `react`,
+    stack2: `next.js`,
+    stack3: `node.js`,
+    stack4: `graphql`,
+    stack5: `mongodb`,
+    linkGit: 'https://github.com/TetianaBu',
+    linkWeb: 'https://github.com/TetianaBu',
+    imgGit: imgGit,
+    imgWeb: imgLink
+  },
+  {
+    id: 3,
     title: `Fox App`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
+    description: `First version of website about foxes created with React and Express.js. I used react-vis library for data visualisation and mapbox-gl for map integration.`,
     stack1: `react`,
     stack2: `css`,
     stack3: `react-vis`,
@@ -35,35 +43,15 @@ export const allProjectsData = [
     imgWeb: imgLink
   },
   {
-    id: 3,
+    id: 4,
     title: `JS Trainee`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
+    description: `Collection of mini games, lending pages and similar small projects, that I created as a student at EPAM Frontend External Program. For most of them I used HTML5, CSS/SASS/LESS and plane JavaScript.`,
     stack1: `js`,
     stack2: `css`,
     stack3: `scss`,
     stack4: `webpack`,
     linkGit: 'https://github.com/TetianaBu/js-trainee',
     linkWeb: 'https://twi-t.vercel.app/',
-    imgGit: imgGit,
-    imgWeb: imgLink
-  },
-  {
-    id: 4,
-    title: `Shop`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
-    stack1: `react`,
-    stack2: `next.js`,
-    stack3: `node.js`,
-    stack4: `graphql`,
-    stack5: `mongodb`,
-    linkGit: 'https://github.com/TetianaBu',
-    linkWeb: 'https://github.com/TetianaBu',
     imgGit: imgGit,
     imgWeb: imgLink
   }

@@ -12,8 +12,8 @@ export const allProjectsData = [
     stack1: `react`,
     stack2: `next.js`,
     stack3: `css`,
-    linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://about-foxes.herokuapp.com/',
+    linkGit: 'https://github.com/TetianaBu/porfolio_app',
+    linkWeb: 'https://teti.vercel.app/',
     imgGit: imgGit,
     imgWeb: imgLink
   },
@@ -29,7 +29,7 @@ export const allProjectsData = [
     stack3: `react-vis`,
     stack4: `mapboxgl`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://github.com/TetianaBu/fox-app-react',
+    linkWeb: 'https://about-foxes.herokuapp.com/',
     imgGit: imgGit,
     imgWeb: imgLink
   },

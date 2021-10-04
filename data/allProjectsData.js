@@ -28,8 +28,9 @@ export const allProjectsData = [
     stack2: `css`,
     stack3: `react-vis`,
     stack4: `mapboxgl`,
+    stack5: `express.js`,
     linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://about-foxes.herokuapp.com/',
+    linkWeb: 'https://allaboutfoxes.vercel.app/',
     imgGit: imgGit,
     imgWeb: imgLink
   },

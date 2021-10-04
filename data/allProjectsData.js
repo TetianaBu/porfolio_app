@@ -35,6 +35,22 @@ export const allProjectsData = [
   },
   {
     id: 3,
+    title: `JS Trainee`,
+    description: `If you have grid items that you don’t explicitly place on the grid,
+    the auto-placement algorithm kicks in to automatically place the
+    items. This property controls how the auto-placement algorithm
+    works.`,
+    stack1: `js`,
+    stack2: `css`,
+    stack3: `scss`,
+    stack4: `webpack`,
+    linkGit: 'https://github.com/TetianaBu/js-trainee',
+    linkWeb: 'https://twi-t.vercel.app/',
+    imgGit: imgGit,
+    imgWeb: imgLink
+  },
+  {
+    id: 4,
     title: `Shop`,
     description: `If you have grid items that you don’t explicitly place on the grid,
     the auto-placement algorithm kicks in to automatically place the
@@ -45,23 +61,8 @@ export const allProjectsData = [
     stack3: `node.js`,
     stack4: `graphql`,
     stack5: `mongodb`,
-    linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://github.com/TetianaBu/fox-app-react',
-    imgGit: imgGit,
-    imgWeb: imgLink
-  },
-  {
-    id: 4,
-    title: `Some`,
-    description: `If you have grid items that you don’t explicitly place on the grid,
-    the auto-placement algorithm kicks in to automatically place the
-    items. This property controls how the auto-placement algorithm
-    works.`,
-    stack1: `js`,
-    stack2: `css`,
-    stack3: ``,
-    linkGit: 'https://github.com/TetianaBu/fox-app-react',
-    linkWeb: 'https://github.com/TetianaBu/fox-app-react',
+    linkGit: 'https://github.com/TetianaBu',
+    linkWeb: 'https://github.com/TetianaBu',
     imgGit: imgGit,
     imgWeb: imgLink
   }

@@ -8,10 +8,12 @@ export default function Skills() {
         <article>
           <h3>Skills</h3>
           <p>
-            Currently the primary tools that I use are React and Next.JS. Besides that, 
+            The primary tools that I use are React and Next.JS. Besides that,
             I’m interested in exploring other JavaScript libraries/frameworks.
             Apart from Front-End, I have a general understanding of Node.js and
-            Express.js. For styling, I mostly rely on CSS3, but I’m familiar with SASS and CSS-in-JS as well.
+            Express.js. For styling, I mostly rely on CSS3, but I’m familiar
+            with SASS and CSS-in-JS as well. I continuously improve my skills,
+            and here are the most recent courses I’ve taken:
           </p>
           <ul className={styles.certificatesList}>
             <li>

@@ -22,12 +22,11 @@ export default function Contact() {
         </address>
       </div>
       <p className={styles.contactText}>
-        The fastest way is to djfksdkf kdlsjf fjdkfjdkjsljf df{' '}
+      The fastes way to contact me is to write an email to{' '}
         <a href="mailto:tetianataker@gmail.com">tetianataker@gmail.com</a>{' '}
-        dsjkdhfksdfhj l or right me on{' '}
-        <a href="https://www.linkedin.com/in/tetiana-buchok/">Linkedin</a> There
-        you also can find info about my previous experience. Of course Im in{' '}
-        <a href="https://www.linkedin.com/in/tetiana-buchok/">GitHub</a> and{' '}
+        or reach me on{' '}
+        <a href="https://www.linkedin.com/in/tetiana-buchok/">Linkedin</a>. There you also can find information about what I was doing before switching to programing. Of course I have profiles in{' '}
+        <a href="https://www.linkedin.com/in/tetiana-buchok/">GitHub</a> and {' '}
         <a href="https://www.linkedin.com/in/tetiana-buchok/">Codepen</a>.
       </p>
       <a className={styles.pseudoButton} href="mailto:tetianataker@gmail.com">

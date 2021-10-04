@@ -8,10 +8,10 @@ export default function Intro() {
     <header id="home">
     <div className={styles.wide}>
     <div className={styles.intro}>
-    <p className={styles.upheading}>Introduction</p>
-    <h1>This is a sample website - you’ll be building</h1>
-    <p className={styles.subheading}>This is a sample website - you’ll be building a site like this on. This is a sample website - you’ll be building a site like this on. This is a sample website - you’ll be building a site like this on</p>
-    <Link href="/game"><a className={styles.resumeBtn}>Grab Resume</a></Link>
+    <p className={styles.upheading}>Hi, there! My name is</p>
+    <h1>Tetiana Buchok and I’m Front-End Developer</h1>
+    <p className={styles.subheading}>I’m focused on creating apps using React and Next.js. Currently I’m looking for Junior/Trainee Front-End Developer role in Cracow or remote.</p>
+    <Link href="/resume.pdf"><a className={styles.resumeBtn}>Grab Resume</a></Link>
     <Link href="/game"><a className={styles.gameBtn}>Play Game</a></Link>
     </div>
     <div>

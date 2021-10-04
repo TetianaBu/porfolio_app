@@ -5,12 +5,12 @@
   padding-left: 2rem;
 }
 
-#skills:hover {
+.wrapper:hover {
   background-color: var(--purple);
   color: var(--white);
 }
 
-#skills:hover a {
+.wrapper:hover a {
   color: var(--white);
 }
 

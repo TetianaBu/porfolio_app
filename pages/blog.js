@@ -27,7 +27,7 @@ export default function BlogPages({ allPostsData }) {
                   <h3 className={styles.postTitle}> {title}</h3>
                 </a>
               </Link>
-              <small>{date}</small>
+              <small><time>{date}</time></small>
             </article>
           ))}{' '}
         </div>

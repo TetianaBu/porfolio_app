@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import Date from '../components/Date';
+//import Date from '../components/Date';
 import Blog from '../components/Blog';
 import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
@@ -14,24 +14,26 @@ export async function getStaticProps() {
   };
 }
 
-export default function BlogPages({allPostsData}) {
+export default function BlogPages({ allPostsData }) {
   return (
     <Layout>
-    <Blog>
-      <div className={styles.postsGrid}>
-      {allPostsData.map(({ id, date, title }) => (
-        <article key={id} className={styles.postGrid}>
-          <div className={styles.postImg}></div>
-          <Link href={`/posts/${id}`}>
-            <a><h3 className={styles.postTitle}> {title}</h3></a>
-          </Link>
-          <small >
-            <Date dateString={date} />
-          </small>
-        </article>
-      ))}{' '}
-      </div>
-  </Blog>
-  </Layout>
-  )
+      <Blog>
+        <div className={styles.postsGrid}>
+          {allPostsData.map(({ id, date, title }) => (
+            <article key={id} className={styles.postGrid}>
+              <div className={styles.postImg}></div>
+              <Link href={`/posts/${id}`}>
+                <a>
+                  <h3 className={styles.postTitle}> {title}</h3>
+                </a>
+              </Link>
+              <small>{date}</small>
+            </article>
+          ))}{' '}
+        </div>
+      </Blog>
+    </Layout>
+  );
 }
+
+//            <Date dateString={date} />

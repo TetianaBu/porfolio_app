@@ -4,9 +4,10 @@
 
 @media (max-width: 1200px) {
   .wrapper {
-    height: 110vh;
+    height: auto;
   }
 }
+/*
 @media (max-width: 768px) {
   .wrapper {
     height: 200vh;
@@ -24,3 +25,4 @@
     height: 300vh;
   }
 }
+*/

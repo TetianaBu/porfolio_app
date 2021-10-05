@@ -44,19 +44,19 @@
 @media (max-width: 600px) {
   .wrapper {
     grid-template-columns: 100%;
-    height: 120vh;
+    height: 100%;
     place-items: start stretch;
   }
 }
 
 @media (max-width: 480px) {
   .wrapper {
-    height: 150vh;
+    height: 100%;
   }
 }
 
 @media (max-width: 376px) {
   .wrapper {
-    height: 170vh;
+    height: 100%;
   }
 }

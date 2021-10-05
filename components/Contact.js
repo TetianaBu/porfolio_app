@@ -25,7 +25,8 @@ export default function Contact() {
       The fastes way to contact me is to write an email to{' '}
         <a href="mailto:tetianataker@gmail.com">tetianataker@gmail.com</a>{' '}
         or reach me on{' '}
-        <a href="https://www.linkedin.com/in/tetiana-buchok/">Linkedin</a>. There you also can find information about what I was doing before switching to programing. Of course I have profiles in{' '}
+        <a href="https://www.linkedin.com/in/tetiana-buchok/">Linkedin</a>. There you also can find information about what I was doing before switching to programing.</p>
+        <p> Also I’m in{' '}
         <a href="https://www.linkedin.com/in/tetiana-buchok/">GitHub</a> and {' '}
         <a href="https://www.linkedin.com/in/tetiana-buchok/">Codepen</a>.
       </p>

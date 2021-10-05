@@ -21,7 +21,7 @@ body, button {
 
 button {
   background-color: var(--purple);
-  color:var(--white);
+  color: var(--white);
   border: 1px solid var(--white);
 }
 
@@ -105,4 +105,10 @@ address {
   text-align: center;
   font-size: smaller;
   padding-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  section {
+    height: 100%;
+  }
 }

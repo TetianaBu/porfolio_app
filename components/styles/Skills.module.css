@@ -44,6 +44,7 @@
 @media (max-width: 600px) {
   .wrapper {
     grid-template-columns: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100vh, 1fr));
     height: 100%;
     place-items: start stretch;
   }
@@ -52,11 +53,15 @@
 @media (max-width: 480px) {
   .wrapper {
     height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100vh, 1fr));
+
   }
 }
 
 @media (max-width: 376px) {
   .wrapper {
     height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100vh, 1fr));
+
   }
 }

@@ -44,12 +44,13 @@
 @media (max-width: 600px) {
   .wrapper {
     grid-template-columns: 100%;
-    height: auto;
     place-items: start stretch;
   }
 }
 
 /*
+    height: auto;
+
 @media (max-width: 480px) {
   .wrapper {
     height: 150vh;

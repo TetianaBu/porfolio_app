@@ -2,12 +2,14 @@
   border: 1px dashed var(--deepGreen);
   padding: 0.4rem 0.8rem;
 }
+
 .pseudoButton:hover {
-  background:var(--deepGreen) ;
+  background: var(--deepGreen);
   color: white;
   border: 1px solid var(--darkGrey);
   text-decoration: none;
 }
+
 .contact {
   padding: 1rem;
   display: grid;
@@ -34,8 +36,6 @@
   max-width: 70%;
   text-align: center;
 }
-
-
 
 @media (max-width: 480px) {
   .avatarWrapper {

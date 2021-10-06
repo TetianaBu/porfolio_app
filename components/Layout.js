@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/images/T.png" />
-        <meta name="description" content="Personal website !!!" />
+        <meta name="description" content="Tetiana Buchok | Front-End Developer | React Developer" />
         <meta
           property="og:image"
           // content={}

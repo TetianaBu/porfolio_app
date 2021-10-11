@@ -5,6 +5,7 @@
 
 .menu {
   display: none;
+  min-height: 100%;
 }
 
 @media (max-width: 1000px) {

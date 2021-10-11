@@ -2,7 +2,7 @@
   border: 1px dashed var(--purple);
   margin: 0;
   width: 15%;
-  min-height: 100vh;
+  min-height: 100%;
   position: fixed;
   display: flex;
   flex-direction: column;

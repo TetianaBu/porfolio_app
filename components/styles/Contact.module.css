@@ -1,13 +1,17 @@
 .pseudoButton {
   border: 1px dashed var(--deepGreen);
   padding: 0.4rem 0.8rem;
+  box-shadow: 5px 5px 2px 1px #22df1c5e;
+  transition: 1s;
 }
 
 .pseudoButton:hover {
   background: var(--deepGreen);
   color: white;
-  border: 1px solid var(--darkGrey);
+  border: 1px solid var(--white);
+  box-shadow: 5px 5px 2px 1px #22df1c5e;
   text-decoration: none;
+  transform: scale(1.1);
 }
 
 .contact {

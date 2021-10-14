@@ -47,11 +47,14 @@
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0.8rem 1.5rem;
+  box-shadow: 5px 5px 2px 1px #8679cb5e;
+  transition: 1s;
 }
 
 .resumeBtn:hover, .gameBtn:hover {
   background-color: var(--deepGreen);
   border: 1px solid var(--white);
+  box-shadow: 6px 6px 3px 2px #07f00749;
 }
 
 .gameBtn {

@@ -1,8 +1,8 @@
 .footer {
-  border-left: 3px solid var(--purple);
-  border-right: 3px solid var(--purple);
-  border-bottom: 3px solid var(--purple);
-  box-shadow: -5px -5px 1px 2px #8679cb5e;
+  border-top: 1px dashed var(--purple);
+  -webkit-box-shadow: -37px 4px 24px -27px rgba(118, 114, 179, 1);
+  -moz-box-shadow: -37px 4px 24px -27px rgba(118, 114, 179, 1);
+  box-shadow: -37px 4px 24px -27px rgba(118, 114, 179, 1);
   margin-top: 0;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -20,3 +20,7 @@
 .footer p {
   margin: 0;
 }
+
+/*  border-left: 3px solid var(--purple);
+  border-right: 3px solid var(--purple); 
+*/

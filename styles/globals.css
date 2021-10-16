@@ -39,7 +39,6 @@ body {
 
 main {
   margin: 0;
-  border-top: 3px solid var(--purple);
 }
 
 li, ul {
@@ -90,10 +89,9 @@ header {
 }
 
 header, section {
-  border-left: 3px solid var(--purple);
-  border-right: 3px solid var(--purple);
-  border-bottom: 3px solid var(--purple);
-  box-shadow: -5px -5px 1px 2px #8679cb5e;
+  -webkit-box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
+  -moz-box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
+  box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
 }
 
 section {

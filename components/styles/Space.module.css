@@ -1,0 +1,40 @@
+.wrapper {
+  min-height: 6rem;
+  background-color: var(--violet);
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+}
+
+.innerWrapper {
+  max-width: 900px;
+  color: var(--white);
+  border-left: 2px solid var(--yellow);
+  border-right: 2px solid var(--yellow);
+  transform: skewX(-6deg);
+  padding: 1rem 3rem;
+}
+
+.btn {
+  border: none;
+  background-color: var(--violet);
+  color: var(--white);
+  font-size: 14px;
+}
+
+.peopleInSpaceList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.peopleInSpaceList li {
+  padding: 0.5rem;
+}
+
+@media (max-width: 600px) { 
+  .innerWrapper {
+    margin: auto 1rem;
+  }
+}

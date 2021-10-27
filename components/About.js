@@ -1,5 +1,6 @@
 import styles from '../components/styles/About.module.css';
 
+
 export default function About() {
   return (
     <section id="about">

@@ -11,20 +11,20 @@
 .postGrid:first-of-type {
   grid-area: main;
   height: 60vh;
-  background-color: var(--purple);
+  background-color: var(--blue);
   margin-bottom: 0.5rem;
 }
 
 .postGrid:nth-of-type(2) {
   grid-area: art1;
   height: 35vh;
-  background-color: var(--lilac);
+  background-color: var(--blue);
 }
 
 .postGrid:nth-of-type(3) {
   grid-area: art2;
   height: 35vh;
-  background-color: cadetblue;
+  background-color: var(--blue);
 }
 
 .postsGrid {

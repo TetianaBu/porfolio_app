@@ -4,10 +4,11 @@ import SocialVidget from './SocialVidget';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function MenuSide() {
+export default function Menu() {
   return (
-    <div className={styles.menu}>
-        <div className={styles.menuBtnWrapper} >
+    <div className={styles.wide}>
+      <div className={styles.menu}>
+        <div className={styles.menuBtnWrapper}>
           <Link href="/">
             <a className={styles.backToHome}>
               <Image
@@ -19,9 +20,9 @@ export default function MenuSide() {
               />
             </a>
           </Link>
+        </div>
+        <Nav />{' '}
       </div>
-      <Nav />
-      <SocialVidget />
     </div>
   );
 }

@@ -1,9 +1,16 @@
 .intro {
   padding: 1rem;
+  margin: auto;
 }
 
 .introInteractive {
   padding: 1rem;
+}
+
+.temporary {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .scrollDownWrapper {
@@ -17,11 +24,12 @@
 }
 
 .wide {
-  max-width: var(--extraLg);
+  max-width: 900px;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60%;
   align-content: center;
-  margin-left: 2rem;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 .upheading {
@@ -41,32 +49,29 @@
 }
 
 .gameBtn, .resumeBtn {
-  background-color: var(--darkGrey);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--darkGrey);
   font-weight: normal;
   text-transform: uppercase;
   font-size: 1rem;
   padding: 0.8rem 1.5rem;
-  box-shadow: 5px 5px 2px 1px #8679cb5e;
-  transition: 1s;
+  box-shadow: 5px 5px 2px 1px var(--yellow);
+  border: 1px dashed var(--violet);
+  transition: 2s;
 }
 
 .resumeBtn:hover, .gameBtn:hover {
-  background-color: var(--deepGreen);
-  border: 1px solid var(--white);
-  box-shadow: 6px 6px 3px 2px #07f00749;
-}
-
-.gameBtn {
-  border: 1px solid var(--brightPurple);
+  background-color: var(--violet);
+  color: var(--white);
+  border: 1px solid var(--yellow);
+  box-shadow: 6px 6px 3px 2px rgba(255, 255, 0, 0.5);
 }
 
 .resumeBtn {
-  border: 1px solid var(--brightPurple);
   margin-right: 1.5rem;
 }
 
-.asteroid {
+.asteroid2 {
   display: flex;
   align-content: flex-start;
   justify-content: center;
@@ -79,30 +84,38 @@
 
 @keyframes example {
   from {
-    top: 0px;
+    top: 0;
   }
   to {
-    top: 200px;
+    top: 100%;
   }
 }
 
-@media (max-width: 1200px) {
-  .wide {
-    max-width: var(--lg);
+.asteroid {
+  left: 70%;
+  bottom: 70%;
+  position: fixed;
+  padding: 2rem;
+  animation: x 10s infinite cubic-bezier(.5, 600, .5, -600), y 10s linear infinite alternate;
+}
+
+@keyframes x {
+  to {
+    top: 50%;
   }
 }
 
-@media (max-width: 1000px) {
-  .wide {
-    max-width: var(--netbook);
+@keyframes y {
+  to {
+    left: calc(50% - 40px);
   }
 }
+
 
 @media (max-width: 768px) {
   .wide {
     max-width: var(--tablet);
     padding: 0;
-    margin: 0 auto;
     grid-template-columns: 70% 30%;
   }
   .intro {
@@ -122,6 +135,9 @@
   }
   .wide {
     grid-template-columns: 100%;
+  }
+  .wide h1 {
+    margin-right: 2rem;
   }
 }
 

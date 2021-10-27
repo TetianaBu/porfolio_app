@@ -1,16 +1,18 @@
 import styles from './styles/Layout.module.css';
 import Head from 'next/head';
-import MenuBtn from './MenuBtn';
-import MenuSide from './MenuSide';
+import Menu from './Menu';
 
 export const siteTitle = 'Tetiana Buchok | Web Developer';
 
 export default function Layout({ children }) {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <link rel="icon" href="/images/T.png" />
-        <meta name="description" content="Tetiana Buchok | Front-End Developer | React Developer" />
+        <meta
+          name="description"
+          content="Tetiana Buchok | Front-End Developer | React Developer"
+        />
         <meta
           property="og:image"
           // content={}
@@ -18,15 +20,8 @@ export default function Layout({ children }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="" />
       </Head>
-
-      <div className={styles.menuSide}>
-        <MenuSide />
-      </div>
-
+      <Menu />
       <main>{children}</main>
-      <div className={styles.menu}>
-        <MenuBtn />
-      </div>
-    </div>
+    </>
   );
 }

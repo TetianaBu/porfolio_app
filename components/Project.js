@@ -1,11 +1,10 @@
 import styles from '../components/styles/Project.module.css';
 import Image from 'next/dist/client/image';
-import {allProjectsData} from '../data/allProjectsData.js';
-
+import { allProjectsData } from '../data/allProjectsData.js';
 
 export default function Project() {
   return (
-    <div className={styles.mainWrapper}>
+    <>
       {allProjectsData.map(
         ({
           id,
@@ -22,8 +21,9 @@ export default function Project() {
           imgWeb
         }) => (
           <article key={id} className={styles.unit}>
+            <h2 className={styles.number}>0{id}</h2>
             <div className={styles.textWrapper}>
-              <h4 className={styles.title}>{title}</h4>
+              <h3 className={styles.title}>{title}</h3>
               <ul className={styles.stackWrapper}>
                 <li>{stack1}</li>
                 <li>{stack2}</li>
@@ -32,32 +32,27 @@ export default function Project() {
                 <li>{stack5}</li>
               </ul>
               <p className={styles.decription}>{description}</p>
-            </div>
-            <div className={styles.socialImagesWrapper}>
-              <a href={linkGit} className={styles.socialImgWrapper}>
-                <Image
-                  priority
-                  src={imgGit}
-                  className={styles.socialImg}
-                  width="12px"
-                  height="12px"
-                  alt="social"
-                />
+              <div className={styles.socialImagesWrapper}>
+              <a
+                href={linkGit}
+                type="button"
+                className={styles.socialImgWrapper}
+              >
+                Code
               </a>
-              <a href={linkWeb} className={styles.socialImgWrapper}>
-                <Image
-                  priority
-                  src={imgWeb}
-                  className={styles.socialImg}
-                  width="12px"
-                  height="12px"
-                  alt="social"
-                />{' '}
+              <a
+                href={linkWeb}
+                type="button"
+                className={styles.socialImgWrapper}
+              >
+                Web
               </a>
             </div>
+            </div>
+
           </article>
         )
       )}
-    </div>
+    </>
   );
 }

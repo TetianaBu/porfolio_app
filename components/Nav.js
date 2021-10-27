@@ -12,7 +12,3 @@ export default function Nav() {
     </div>
   );
 }
-//      <div className={styles.navbarmenu}>
-
-//      <Link href="/#about">About</Link>
-//     <div className={styles.logocontainer}><p></p></div>

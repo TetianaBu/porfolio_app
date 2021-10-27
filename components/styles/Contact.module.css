@@ -1,15 +1,15 @@
 .pseudoButton {
-  border: 1px dashed var(--deepGreen);
+  border: 1px dashed var(--darkGrey);
   padding: 0.4rem 0.8rem;
-  box-shadow: 5px 5px 2px 1px #22df1c5e;
+  box-shadow: 5px 5px 2px 1px var(--yellow);
   transition: 1s;
 }
 
 .pseudoButton:hover {
-  background: var(--deepGreen);
-  color: white;
-  border: 1px solid var(--white);
-  box-shadow: 5px 5px 2px 1px #22df1c5e;
+  background: var(--violet);
+  color: var(--white);
+  border: 1px solid var(--yellow);
+  box-shadow: 5px 12px 10px 5px rgba(255, 255, 0, 0.5);
   text-decoration: none;
   transform: scale(1.1);
 }
@@ -19,6 +19,7 @@
   display: grid;
   place-items: center;
   place-content: center;
+  margin: 7rem auto;
 }
 
 .borderCircle {

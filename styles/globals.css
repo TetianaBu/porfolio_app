@@ -32,13 +32,13 @@ button {
 body {
   background-color: var(--white);
   color: var(--darkGrey);
-  max-width: 1600px;
   min-width: var(--extraSm);
   margin: 0 auto;
 }
 
 main {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 li, ul {
@@ -81,23 +81,19 @@ img {
 }
 
 header {
-  display: flex;
-  height: 100vh;
-  margin: 0 auto;
   position: relative;
+  overflow: visible;
   margin: 0 auto;
-}
-
-header, section {
-  -webkit-box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
-  -moz-box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
-  box-shadow: -25px -32px 24px -29px rgba(118, 114, 179, 1);
 }
 
 section {
-  height: 100vh;
   margin: 0 auto;
   padding: 0;
+}
+
+.width {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 address {

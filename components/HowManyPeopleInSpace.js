@@ -36,7 +36,6 @@ export default function HowManyPeopleInSpace() {
     };
     fetchData();
   }, []);
-  console.log(dataNumber, 'here');
   return (
     <div className={styles.wrapper}>
       <div className={styles.innerWrapper}>

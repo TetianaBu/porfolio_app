@@ -10,8 +10,8 @@ export default function Intro() {
           <h1>Are you looking for Front-End Developer?</h1>
           <p className={styles.subheading}>
             My name is Tetiana and I’m looking for a great team to join. This
-            site is my place to experiment — here you can find out how many
-            people are in space, some info about my skills and more.
+            site is my place to experiment — here you can find out how many satellites are orbiting Earth right now, some info about my skills
+            and more.
           </p>
           <Link href="/resume.pdf">
             <a className={styles.resumeBtn}>Grab Resume</a>

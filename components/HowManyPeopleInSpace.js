@@ -16,7 +16,7 @@ export default function HowManyPeopleInSpace() {
     }
     setIsError(false);
     try {
-      const result = await axios('/* http://api.open-notify.org/astros.json:splat 200');
+      const result = await axios('http://api.open-notify.org/astros.json', {method: "GET"});
       setData(result.data);
       console.log(result.data);
     } catch (error) {
@@ -28,7 +28,7 @@ export default function HowManyPeopleInSpace() {
     const fetchData = async () => {
       setIsError(false);
       try {
-        const result = await axios('/* http://api.open-notify.org/astros.json:splat 200');
+        const result = await axios('http://api.open-notify.org/astros.json',  {method: "GET"});
         setDataNumber(result.data);
         console.log(result.data);
       } catch (error) {

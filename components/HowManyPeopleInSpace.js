@@ -10,14 +10,13 @@ export default function HowManyPeopleInSpace() {
   function doNotShow() {
     return window.alert("OOKay!")
   }
-
   async function fetchNames() {
     if (data.people.length > 0) {
       return;
     }
     setIsError(false);
     try {
-      const result = await axios('http://api.open-notify.org/astros.json');
+      const result = await axios('/* http://api.open-notify.org/astros.json:splat 200');
       setData(result.data);
       console.log(result.data);
     } catch (error) {
@@ -29,7 +28,7 @@ export default function HowManyPeopleInSpace() {
     const fetchData = async () => {
       setIsError(false);
       try {
-        const result = await axios('http://api.open-notify.org/astros.json');
+        const result = await axios('/* http://api.open-notify.org/astros.json:splat 200');
         setDataNumber(result.data);
         console.log(result.data);
       } catch (error) {
